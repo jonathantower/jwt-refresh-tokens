@@ -1,0 +1,16 @@
+header ul {
+  margin: 0;
+  background: lightgray;
+  padding: 20px;
+}
+
+  header ul li {
+    display: inline-block;
+    padding: 0px 0px 0px 50px !important;
+    margin: 0 !important;
+  }
+
+    body main {
+      padding: 20px 60px;
+      display: block;
+    }

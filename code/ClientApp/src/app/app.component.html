@@ -1,0 +1,11 @@
+<header>
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/customers">Customers</a></li>
+    <li *ngIf="!isUserAuthenticated()"><a routerLink="/login">Login</a></li>
+    <li *ngIf="isUserAuthenticated()"><a class="logout" (click)="logOut()">Logout</a></li>
+  </ul>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
